@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Quarta Posizione</title>
+  <link rel="stylesheet" href="stile.css">
+</head>
+<body>
+  <h1>Scopri la tua affinità con la Quarta Posizione</h1>
+
+  <div id="intro">
+    <p>Rispondi alle affermazioni e scopri a quale ideologia ti avvicini di più.</p>
+    <button id="start-btn">Inizia il Test</button>
+  </div>
+
+  <div id="quiz-container" style="display:none;">
+    <p id="question-text"></p>
+    <div id="answers">
+      <button class="answer-btn" data-value="2">Fortemente d'accordo</button>
+      <button class="answer-btn" data-value="1">D'accordo</button>
+      <button class="answer-btn" data-value="0">Neutrale / Incerto</button>
+      <button class="answer-btn" data-value="-1">In disaccordo</button>
+      <button class="answer-btn" data-value="-2">Fortemente in disaccordo</button>
+    </div>
+  </div>
+
+  <script src="questions.js"></script>
+  <script src="quiz.js"></script>
+</body>
+</html>
